@@ -1,0 +1,193 @@
+﻿body {font-family: Trebuchet MS; margin:0; background-image: url("../IMG/Boutique.jpg");}
+img {vertical-align: middle;}
+
+.texte{
+	font-family:'trebuchet ms';
+	color:white;
+}
+
+.achat{
+	width:300px;
+	height:100px;
+	background-color:red;
+	text-align:center;
+	padding-top:10px;
+	margin:20px;
+	float:left;
+	cursor: pointer; 
+	transition: 0.3s;
+}
+
+.article {
+	margin: auto;
+	width:300px;
+	height:300px;
+	background-color:grey;
+	text-align:center;
+	padding-top:10px;
+	cursor: pointer; 
+	transition: 1s;
+	opacity: 0.5;
+}
+
+.border-text{
+	margin-left: 30px;
+	margin-right: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	opacity: 0.7;
+}
+
+.border-text2{
+	margin-top: 450px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	opacity: 0.7;
+}
+
+.border-text h3{
+	color : white;
+	opacity: 0.6;
+	margin-left: 10px;
+}
+
+.border-text2 h3{
+	color : white;
+	opacity: 0.6;
+	margin-left: 10px;
+}
+
+.image{
+	height:70%;
+	opacity: 1;
+}
+
+.qte{
+	color: white;
+	padding-top: 10px;
+	margin: auto;
+	width: 300px;
+	height: 200px;
+}
+
+.conteneur-article{
+	float:left;
+	margin:20px;
+	width: 350px;
+	height: 400px;
+}
+
+.article:hover{
+	opacity: 0.9;
+	border-radius: 110px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #F39C12;
+}
+
+.acheter{
+	border-radius: 10px;
+	background-color:white;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.5;
+	color: #1C2833;
+	font-size: 15px;
+}
+
+.acheter:hover{
+	opacity: 0.9;
+}
+
+.prix {
+	color: #ECF0F1;
+}
+
+.conteneur-article p:hover{
+	color: #F39C12;
+}
+
+#desc-produit{
+	border-right-style: solid;
+	border-color: grey;
+	border-width: 1px;
+	margin-right: 10px;
+	height: 100%;
+	width: 65%;
+	display:flex;
+	flex-direction: row;
+}
+
+#buy-produit{
+	background-color: #D8D8D8;
+	margin-left: 10px;
+	height: 100%;
+	width: 35%;
+}
+
+#conteneur-flex{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 390px;
+	display:flex;
+	flex-direction: row;
+}
+
+.qte2{
+	background-color: #F39C12;
+	color: black;
+	padding: 10px;
+	margin:auto;
+	margin-top: 40%;
+	width: 250px;
+}
+
+.prix2 {
+	font-family: 'Trebuchet MS';
+	font-size: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: black;
+}
+
+#desc-image{
+	height: 300px;
+	width: 50%;
+}
+
+#desc-desc{
+	height: 300px;
+	width: 50%;
+}
+
+#desc-desc p{
+	padding: 10px;
+}
+
+#desc-image img{
+	height: 225px;
+	width: 225px;
+	margin-left: 10px;
+	margin-top: 15%;
+}
+
+#panier{
+	background-color: white;
+	width: 800px;
+	margin: 200px auto;
+}
+
+#tabPanier{
+	padding: 20px;
+	border-spacing : 40px;
+	text-align: center;
+}
+

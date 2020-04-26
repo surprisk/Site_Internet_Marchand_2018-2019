@@ -1,0 +1,163 @@
+body{
+	margin : 0 auto;
+	top: 0;
+    left: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.divtext{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: rgba(60, 60, 60, 0.8);
+	border-radius: 10px;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+	font-size: 32px;
+	color: white;
+	padding: 20px;
+	opacity: 0.6;
+}
+
+.blur
+{
+	filter: blur(1px);
+}
+
+.opacity
+{
+	opacity: 0.9;
+	background-color: linear-gradient(to top, #b3b9c2, #90939a, #6e6f74, #4d4d4f, #2e2e2e);
+}
+
+#div-presentation
+{
+	height : 100px;
+	background-image: linear-gradient(to bottom, #FFFFFF, #E8E8E8, #C9C9C9);
+}
+
+#div-banner
+{
+	z-index: 10;
+	top: 0;
+	position : fixed;
+	background: linear-gradient(to top, #FFFFFF, #E8E8E8, #C9C9C9);
+	height: 70px;
+	width: 100%;
+	padding-right: 0;
+	transition: opacity 0.5s, font-size 0.5s;
+	
+}
+
+#div-banner ul {
+
+	list-style: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+#div-banner li {
+	display: inline-block;
+	padding: 10px 1%;
+	float : left;
+}
+
+#div-banner a {
+	color: #696969;
+	text-decoration: none;
+	transition: color 0.3s;
+	font-family: "Trebuchet MS";
+	padding-right: 50px;
+}
+
+#div-banner a:hover {
+	color: #aaa;
+}
+
+#div-principale
+{
+	background-image: black;
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	top: 0;
+}
+
+#div-presentation img
+{
+	width: 100px;
+}
+
+#texte {
+	margin-top: 50px;
+	width: 80%;
+	background-color: rgba(60, 60, 60, 0.8);
+	border-radius: 10px;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	color: white;
+	padding: 20px;
+}
+
+#div-panier {
+	float: right;
+	width : 350px;
+	height : 40px;
+	background-color: black;
+	margin-right: 10px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(148,148,148,1) 0%, rgba(89,89,98,0.7343312324929971) 100%);
+	transition: opacity 0.5s, width 0.5s, height 0.5s;
+	border-radius: 75px;
+}
+
+#fleche {
+	transition: width 0.6s, opacity 0.6s;
+}
+
+#fleche:hover {
+	opacity: 0.5;
+	width : 120px
+}
+
+#text-panier:hover{
+	opacity: 0.5;
+}
+
+#div-search{ 
+	float: left;
+	width : 250px;
+	height : 30px;
+	background-color: white;
+	margin-left: 5.5px;
+	margin-top: -14px;
+	background: white;
+	border-radius: 75px;
+	opacity: 0.85;
+}
+
+#site-search{
+	border: none;
+	background: none;
+	outline: none;
+	height: 100%;
+	width:89%;
+	margin-left:5px ;
+	float: right;
+}
+
+#div-text{
+	background-position: center;
+	background-image: url(../IMG/IMG-BackgroundAccueil.jpg);
+	background-size: cover;
+	height: 140%;
+	width: 100%;
+	top:0;
+}

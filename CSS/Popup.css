@@ -1,0 +1,245 @@
+#loginPopup{
+    z-index: 101;
+    position: fixed;
+    height: 425px;
+    width: 400px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(100%, 50%);
+
+}
+
+#blackScreen{
+    margin:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+
+#blackScreena{
+    margin:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+
+#submit{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+
+
+.btn {
+    font-family: 'Trebuchet MS';
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #6E6E6E;
+    color: white;
+    padding: 5px 0;
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 100%;
+    transition: 0.3s;
+}
+  
+.btn:hover {
+    background: #585858;
+}
+
+.animationLogin{
+	animation: animationlogin 1s;
+}
+
+#articlePopup{
+    z-index: 102;
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(25%, 25%);
+}
+
+#paniersubmit{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+.animationArticle{
+	animation: animationarticle 1s;
+}
+
+@keyframes animationarticle {
+	from {transform: scale(0) translate(25%, 25%);} 
+	to {transform: scale(1) translate(25%, 25%);}
+}
+
+@keyframes animationlogin {
+	from {opacity:0;
+		top: -50%} 
+	to {opacity:1;
+		top: 0%}
+ }
+ 
+ #articlePopupa{
+    z-index: 102;
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(25%, 25%);
+}
+
+#paniersubmita{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+ #articlePopupb{
+    z-index: 102;
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(25%, 25%);
+}
+
+#paniersubmitb{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+#blackScreenb{
+    margin:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+
+ #articlePopupc{
+    z-index: 102;
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(25%, 25%);
+}
+
+#paniersubmitc{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+#blackScreenc{
+    margin:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+ #articlePopupd{
+    z-index: 102;
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(25%, 25%);
+}
+
+#paniersubmitd{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+#blackScreend{
+    margin:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+
+ #articlePopupe{
+    z-index: 102;
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    display: none;
+    background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	transform: translate(25%, 25%);
+}
+
+#paniersubmite{
+    padding:1px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+	margin-top: 40px;
+}
+
+#blackScreene{
+    margin:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}

@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<script type="text/javascript" src="connection.js"> </script>
+		<style type="text/css">
+		#loginPopup{
+		z-index: 101;
+		position:absolute;
+		margin: 10px;
+		height: 300px;
+		width: 300px;
+		display: none;
+		background-color: white;
+		}
+
+		#blackScreen{
+			margin:0;
+			z-index:100;
+			position: fixed;
+			width:100%;
+			height: 100%;
+			background-color: orange;
+			opacity: 0.4;
+			display: none;
+		}
+
+		#submit{
+			text-align: center;
+			margin-top: 240px;
+			margin: auto;
+			height: 50px;
+			width: 100px;
+		}
+		</style>
+	</head>
+	<body>			
+		<div ID="blackScreen">
+		</div>
+		<div style="height: 100%; width: 100%; background-color: black; position: absolute;">
+			<div style="height: 100px; width: 300px">
+				<p style="background-color: white; margin: 10px; z-index: 4;" onclick="popupConnection(false)"> connection </p>
+			</div>
+			<div ID="loginPopup">
+				<div ID="submit" onclick="popupConnection(true)">
+					<p>submit</p>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
